@@ -1,0 +1,260 @@
+*/*{
+outline: 1px dotted pink;
+}*/
+.wrapper{
+    width:970px;
+    min-height:800px;
+    margin: 0px auto;
+}
+.header{
+    width:970px;
+    min-height:100px;
+}
+    .header img{
+        width: 10%;
+        height: 55%;
+        display: inline-block;
+        overflow: visible;
+    }
+    .header h1{
+        padding: 10px 0px 0px 10px;
+        width: 250px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 41px;
+        font-weight: 100;
+        color: #474747;
+    }
+    .header h2{
+        width: 935px;
+        height: 40px;
+        background-image: radial-gradient(#5183AC, #25669F);
+        display: inline-block;
+        margin: 0px 0px 0px;
+        vertical-align: top;
+        margin-top: -20px;
+        padding: 10px 0 0 19px;
+        color: white;
+        font-family: arial;
+        font-size: 27px;
+        font-weight: 100;
+    }
+.nav_bar{
+    width:200px;
+    min-height:630px;
+    display:inline-block;
+    vertical-align: top;
+}
+    .nav_bar h3{
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .nav_bar p{
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 196px;
+        margin: -7px 5px 0px 5px;
+    }
+    .nav_bar a{
+        display:block;
+    }
+    .nav_bar #watch_link{
+        text-decoration: none;
+        margin: 14px auto 0px;
+        margin-left: 16px;
+        background-image: linear-gradient(#5183AC, #25669F);
+        border-radius: 8px;
+        width: 150px;
+        padding: 8px;
+        color: white;
+        text-align: center;
+    }
+    .nav_bar #resources_link{
+        text-decoration: none;
+        margin: 3px auto 10px;
+        margin-left: 16px;
+        background-image: linear-gradient(#EE7B33, #EBA74B);
+        border-radius: 8px;
+        width: 150px;
+        padding: 8px;
+        color: white;
+        text-align: center;
+    }
+    .nav_bar #ad{
+        background-image: url(ad_background.png);
+        width: 186px;
+        height: 280px;
+        display: inline-block;
+        margin: 30px 8px;
+        padding-top: 25px;
+    }
+    #ad h2{
+        text-align: center;
+        color: white;
+        font-family: arial;
+        font-weight: 100;
+        margin-top: 0px;
+    }
+    .nav_bar #Ninja{
+        width: 40%;
+        height: 39%;
+        margin: -10px 10px 10px 54px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #learn_more{
+        margin: 0px 0px 0px 10px;
+        display: inline-block;
+        padding: 6px 10px 20px 10px;
+        background-color: #5AC7DF;
+        width: 144px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border-radius: 8px;
+        max-height: 4px;
+        vertical-align: top;
+        border-right: outset black 2px;
+        border-bottom: 2px outset black;
+    }
+.main_content{
+    width:750px;
+    min-height:630px;
+    display:inline-block;
+}
+    .main_header{
+        width:750px;
+        height:65px;
+        display:inline-block;
+    }
+        #house{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-left: 50px;
+            vertical-align: top;
+            margin-top:10px;
+        }
+        #dns{
+            color: #4179AA;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            vertical-align: top;
+        }
+        #hours{
+            color: lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            display: inline-block;
+            margin: 0px 0px 0px 500px;
+        }
+        #phone_num{
+            color: #56C1E0;
+            font-size: 20px;
+            display: inline-block;
+            font-weight: bold;
+            font-family: "Arial Black";
+            margin: -32px 0px 0px 600px;
+            vertical-align: top;
+        }
+        #international{
+            color: lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9px;
+            display: inline-block;
+            margin: -22px 0px 0px 625px;
+            vertical-align: top;
+        }
+        .main_header img{
+            width: 50px;
+            height: 49px;
+            vertical-align: top;
+            display: inline-block;
+            margin: -79px 0px 0px 540px;
+        }
+    #para_title1{
+        color: #25669F;
+        margin-top: -32px;
+        margin-left: 47px;
+        font-family: arial;
+    }
+    #top_para{
+        margin-left: 48px;
+        margin-top: -16px;
+    }
+    .main_content ul{
+        margin-top: -8px;
+        margin-left: 34px;
+        font-size: 14px;
+        font-family: arial;
+    }
+    .top_list{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #para_title2{
+        color: #25669F;
+        margin: 5px 0px 0px 48px;
+        font-family: arial;
+    }
+    .main_content #client_server{
+        display: inline-block;
+        width: 250px;
+        margin: -12px 0px 0px 220px;
+    }
+    .main_content ol{
+        margin: 0px 0px 0px 40px;
+        font-family: arial;
+        font-size: 14px;
+    }
+    .bottom_list{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main_footer{
+        display: inline-block;
+        width: 500px;
+        height: 105px;
+        border-left: 4px solid #2685E1;
+        border-top: 4px solid #2685E1;
+        border-right: 4px solid #2685E1;
+        vertical-align: top;
+        margin-left: 115px;
+    }
+        .main_footer img{
+            display: inline-block;
+            width: 100px;
+            height: 90px;
+            margin: 8px 0px 0px 15px;
+        }
+        .main_footer h2{
+            display: inline-block;
+            color: #25669F;
+            vertical-align: top;
+            margin: 9px 0px 0px 10px;
+            font-size: 18px;
+            font-family: arial;
+        }
+        #footer_para{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            vertical-align: top;
+            margin: -71px 0px 0px 130px;
+            font-size: 13px;
+            width: 334px;
+        }
+        #footer_link{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            vertical-align: top;
+            font-size: 13px;
+            margin: -28px 0px 0px 130px;
+        }
